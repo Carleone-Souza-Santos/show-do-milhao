@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Show do Milhão
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot](./assets/background.jpg) <!-- Insira um screenshot do seu projeto aqui -->
 
-## Available Scripts
+## 📋 Índice
 
-In the project directory, you can run:
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Recursos Principais](#recursos-principais)
+- [Como Executar o Projeto](#como-executar-o-projeto)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+- [Contato](#contato)
 
-### `npm start`
+## 📝 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+"Show do Milhão" é um quiz interativo inspirado no famoso programa de televisão. O objetivo do jogo é responder corretamente a uma série de perguntas de múltipla escolha para acumular pontos. As perguntas e suas opções são embaralhadas para cada rodada, garantindo uma experiência de jogo única a cada vez.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias Utilizadas
 
-### `npm test`
+- [React](https://reactjs.org/)
+- [Styled-components](https://styled-components.com/)
+- JavaScript (ES6+)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎮 Recursos Principais
 
-### `npm run build`
+- Interface de usuário intuitiva e responsiva.
+- Perguntas e opções de resposta são embaralhadas aleatoriamente.
+- Feedback instantâneo sobre a pontuação do jogador.
+- Layout estilizado utilizando `styled-components`.
+- Imagem de fundo personalizável.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Como Executar o Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Certifique-se de ter o Node.js e o npm instalados na sua máquina.
 
-### `npm run eject`
+### Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone o repositório:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/seu-usuario/show-do-milhao.git
+   Navegue até o diretório do projeto:
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copiar código
+cd show-do-milhao
+Instale as dependências:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copiar código
+npm install
+Executando o Projeto
+Para iniciar o servidor de desenvolvimento, execute:
 
-## Learn More
+bash
+Copiar código
+npm start
+O aplicativo estará disponível no navegador através do endereço: http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Faça um fork do projeto.
+Crie uma branch para a sua feature (git checkout -b feature/nova-feature).
+Commit suas alterações (git commit -m 'Adiciona nova feature').
+Faça o push para a branch (git push origin feature/nova-feature).
+Abra um Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📜 Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
-### Code Splitting
+📧 Contato
+Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Nome: Carleone
 
-### Analyzing the Bundle Size
+### Dicas Adicionais:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Screenshots:** Adicione screenshots ou GIFs do funcionamento do projeto na seção inicial ou em uma seção separada chamada "Demonstração".
+2. **GitHub Actions:** Inclua badges de status de CI/CD se você estiver utilizando GitHub Actions.
+3. **Melhorias Futuras:** Se houver, crie uma seção para listar possíveis melhorias ou funcionalidades futuras.
+4. **Links Úteis:** Adicione links para qualquer documentação externa ou recursos que possam ser úteis para o uso ou contribuição ao projeto.
