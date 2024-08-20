@@ -1,7 +1,5 @@
 # Show do Milhão
 
-![Screenshot](./assets/background.jpg) <!-- Insira um screenshot do seu projeto aqui -->
-
 ## 📋 Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
